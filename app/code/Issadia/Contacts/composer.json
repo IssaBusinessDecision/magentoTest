@@ -1,0 +1,22 @@
+{
+    "name": "Issadia/module-contacts",
+    "description": "module de gestion carnet d'adresse pour magento2 avec une interface d'administration, un front office, des acc\u00e8s \u00e0 la base de donn\u00e9es et tout le reste.",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Mage2Gen",
+            "email": "info@mage2gen.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Issadia\\Contacts\\": ""
+        }
+    }
+}

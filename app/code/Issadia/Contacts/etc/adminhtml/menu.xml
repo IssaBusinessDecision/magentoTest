@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Issadia_Contacts" title="Issa Dia Contacts" module="Issadia_Contacts" sortOrder="20" dependsOnModule="Issadia_Contacts" resource="Issadia_Contacts::contacts"/>
+        <add id="Issadia_Contacts::index" title="Issa Dia Contacts" module="Issadia_Contacts" action="contacts/test/index" parent="Issadia_Contacts" sortOrder="20" dependsOnModule="Issadia_Contacts" resource="Issadia_Contacts::contacts"/>
+    </menu>
+</config>
